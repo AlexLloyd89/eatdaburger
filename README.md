@@ -2,52 +2,15 @@
 <a href="https://mighty-anchorage-59445.herokuapp.com/"><img src="https://github.com/AlexLloyd89/eatdaburger/blob/master/public/assets/gitpic.png" alt="Project logo"></img></a>
 </div>
 
-# Pokemon Picker
+# Eat The Burger
 
-> A short quiz that will determine which starter Pokemon is right for you
+> Order up and eat a new burger!
 
 > Please note there will be a short delay for launching the application through Heroku
 
-> Pokemon, survey, full stack, Node, JavaScript, Express
+> mysql, express, ORM, JavaScript, handlebars 
 
-The Application uses the following algorithm to determine the correct starter Pokemon for the user based off of the user's answers to the questions 
-```javascript
- app.post('/api/friends', function (req, res) {
-        var newPokemon = req.body;
-        var match;
 
-        for (var i = 0; i < newPokemon.scores.length; i++) {
-            if (newPokemon.scores[i] == "1 (Strongly Disagree)") {
-                newPokemon.scores[i] = 1;
-            } else if (newPokemon.scores[i] == "5 (Strongly Agree)") {
-                newPokemon.scores[i] = 5;
-            } else {
-                newPokemon.scores[i] = parseInt(newPokemon.scores[i]);
-            }
-        }
-
-        var bestMatch = 0;
-        var difference = 40;
-
-        for (var i = 0; i < pokeData.length; i++) {
-            var totalDifference = 0;
-
-            for (var index = 0; index < pokeData[i].scores.length; index++) {
-                var differenceOneScore = Math.abs(pokeData[i].scores[index] - newPokemon.scores[index]);
-                totalDifference += differenceOneScore;
-            }
-            if (totalDifference < difference) {
-                bestMatch = i;
-                difference = totalDifference;
-            }
-        }
-        match = pokeData[bestMatch];
-        //below line would be useful for having a friend-finder application. Since I only want users to be able to select from 3 pre-defined Pokemon however, I'm leaving this part commented out.
-        // pokeData.push(newPokemon);
-        res.json(match)
-        console.log(newPokemon)
-    });
-```
 **The following was used to build this application**
 
 - JavaScript
@@ -56,3 +19,6 @@ The Application uses the following algorithm to determine the correct starter Po
 - Bootstrap
 - CSS
 - HTML
+- MySQL
+- ORM
+- Handlebars
