@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://mighty-anchorage-59445.herokuapp.com/">![GitHub Logo](/public/assets/gitpic.png)</a>
+<a href="https://mighty-anchorage-59445.herokuapp.com/"><img src="https://github.com/AlexLloyd90/eatdaburger/blob/master/public/assets/gitpic.png?raw=true" alt="Project logo"></img></a>
 </div>
 
 # Pokemon Picker
