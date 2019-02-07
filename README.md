@@ -10,13 +10,13 @@
 
 > mysql, express, ORM, JavaScript, handlebars 
 
+"Eat The Burger" is more of an exercise in ORM, than it is a useful application. The user has the ability to add a new burger to the menu, and then has the option to eat the burger. This information is stored into a MySQL database so that it persists even if the user leaves the application. 
 
 **The following was used to build this application**
 
 - JavaScript
 - Express
 - Node.JS
-- Bootstrap
 - CSS
 - HTML
 - MySQL
