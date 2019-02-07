@@ -6,7 +6,7 @@
 
 > Order up and eat a new burger!
 
-> Please note there will be a short delay for launching the application through Heroku
+> Please note there will be a short delay when launching the application through Heroku
 
 > mysql, express, ORM, JavaScript, handlebars 
 
